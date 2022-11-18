@@ -1,9 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
 
-print("San-Andreas National Guard 2022")
-print("By Pavel Rose #65001 (Void)")
-print("")
-
 image = Image.open('files/usaf.png')
 avatar = Image.open('files/avatar.png')
 font = ImageFont.truetype('files/Gilroy-Semibold.ttf', size=18)
